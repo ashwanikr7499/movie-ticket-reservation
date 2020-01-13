@@ -11,6 +11,7 @@ The possible queries made to the system are-
  Inquiry the number of available seat for the particular show.
  Book K ticket for a particular show.
  Cancel a book ticket.
+
 Hint: The master thread creates a list of H cinema halls, and initializes the number of available
 seats in each cinema halls to c. Themaster thread then creates S threads that run concurrently in a
 loop, and make automatically generated random queriesperiodically. Each query is of one of the
